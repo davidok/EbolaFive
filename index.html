@@ -1,12 +1,14 @@
 <html>
-  <head>   
-    <!--Load the AJAX API-->
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-    <script type="text/javascript" src="data.js"></script>
-    <script type="text/javascript" src="scripts.js"></script>
-  </head>
-  <body>
-    <!--Div that will hold the line chart-->
-    <div id="chart_div"></div>
-  </body>
+	<head>
+
+		<!-- initial code below taken from example at https://google-developers.appspot.com/chart/interactive/docs/gallery/linechart -->
+		<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1','packages':['corechart']}]}"></script>
+		<script type="text/javascript" src="data.js"></script>
+		<script type="text/javascript" src="scripts.js"></script>
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+	<body>
+		<!--Div that will hold the line chart-->
+		<div id="ex2"></div>
+	</body>
 </html>
