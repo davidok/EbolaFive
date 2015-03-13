@@ -1,9 +1,30 @@
 //array setup from two-line Google Charts example: https://developers.google.com/chart/interactive/docs/gallery/linechart
-var ebolaData = {
-      data.addRows([
-        ["2014-08-29", 3052, 1546],   ["2014-09-28", 7157, 3330],  ["2014-10-31", 13567, 4951],
-        ["2014-11-26", 15935, 5689],  ["2014-12-31", 20206, 7904],  ["2015-01-25", 22092, 8810],
-        ["2015-02-22", 23729, 9604]
-      ]);
-  
-}
+ebolaData = [{
+	date : "August 2014",
+	cases : 3052,
+	deaths : 1546
+}, {
+	date : "September 2014",
+	cases : 7157,
+	deaths : 3330
+}, {
+	date : "October 2014",
+	cases : 13567,
+	deaths : 4951
+}, {
+	date : "November 2014",
+	cases : 15935,
+	deaths : 5689
+}, {
+	date : "December 2014",
+	cases : 20206,
+	deaths : 7904
+}, {
+	date : "January 2015",
+	cases : 22092,
+	deaths : 8810
+}, {
+	date : "February 2015",
+	cases : 23729,
+	deaths : 9604
+}]; 
